@@ -7,5 +7,6 @@ import com.codingrecipe.member.entity.MemberEntity;
 
 @Repository
 public interface MemberRepository extends JpaRepository<MemberEntity, Long> {
-    
-}
+
+
+} 

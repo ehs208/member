@@ -8,9 +8,9 @@ import com.codingrecipe.member.service.MemberService;
 
 import lombok.RequiredArgsConstructor;
 
-@Controller
-@RequiredArgsConstructor
 
+@RequiredArgsConstructor
+@Controller
 public class MemberController {
     // 생성자 주입
     private final MemberService memberService;
@@ -27,4 +27,4 @@ public class MemberController {
         memberService.save(memberDTO);
         return "index";
     }
-    }
+}

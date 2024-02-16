@@ -6,8 +6,10 @@ import com.codingrecipe.member.repository.MemberRepository;
 
 import lombok.RequiredArgsConstructor;
 
-@RequiredArgsConstructor 
+
 @Service
+@RequiredArgsConstructor 
+
 public class MemberService {
     private final MemberRepository memberRepository;
     
